@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --blue: hsl(228, 45%, 44%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+
+  --font-family: 'Figtree', Arial, Helvetica, sans-serif;
+  --text-lg: bolder 2.4em/150% var(--font-family);
+  --text-md: 1.6em/150% var(--font-family);
+  --text-sm: 1.4em/150% var(--font-family);
+  --text: bolder 1.4em/150% var(--font-family);
+}

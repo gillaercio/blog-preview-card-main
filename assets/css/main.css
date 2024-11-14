@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.attribution {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.attribution a {
+  font: var(--blue);
+}
