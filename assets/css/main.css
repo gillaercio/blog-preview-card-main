@@ -43,15 +43,44 @@ body {
   border-radius: 4px;
 }
 
+#content .description h1 {
+  font: var(--text-preset);
+}
+
 #content .description .tittle h2 {
-  font: var(--text);
+  font: var(--text-bold);
   padding: 4px 12px;
 }
 
 #content .description h3 {
-  font: var(--text-sm);
+  font: var(--text);
+  line-height: 150%;
+}
+
+#content .description p {
+  font: var(--text-preset3);
+  color: var(--gray-500);
+}
+
+#content .description h3, #content .description p {
   padding-block: 12px;
 }
+
+#content .info {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  gap: 12px;
+}
+
+#content .info img {
+  width: 32px;
+}
+
+#content .info span {
+  font: var(--text-preset3-bold);
+}
+
 
 .attribution {
   font-size: 1.1em;

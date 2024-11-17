@@ -18,8 +18,10 @@ html {
   --gray-950: hsl(0, 0%, 7%);
 
   --font-family: 'Figtree', Arial, Helvetica, sans-serif;
-  --text-lg: bolder 2.4em/150% var(--font-family);
-  --text-md: 1.6em/150% var(--font-family);
-  --text-sm: 1.4em/150% var(--font-family);
-  --text: bolder 1.4em/150% var(--font-family);
+  --text-preset: bolder 2em/150% var(--font-family);
+  --text-preset2: 1.6em/150% var(--font-family);
+  --text-preset3: 1.4em/150% var(--font-family);
+  --text-preset3-bold: bolder 1.4em/150% var(--font-family);
+  --text: 1.2em/150% var(--font-family);
+  --text-bold: bolder 1.2em/150% var(--font-family);
 }
