@@ -81,12 +81,19 @@ body {
   font: var(--text-preset3-bold);
 }
 
-
 .attribution {
   font-size: 1.1em;
   text-align: center;
 }
 
 .attribution a {
-  font: var(--blue);
+  color: var(--gray-950);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: var(--gray-500);
 }
